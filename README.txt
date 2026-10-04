@@ -198,13 +198,3 @@ Linux/Mac:
 
 Aplikasi ini dibuat sebagai proyek CRUD Java Swing dengan database SQL Server
 untuk membantu pengelolaan data peternakan ayam dan panen telur.
-
-==============================================
-ANGGOTA
-==============================================
-1. 255150200111010	ALIF ALBANI SIAGIAN
-2. 255150200111018	BAGAS AJI RASENDRIA
-3. 255150201111010	AHMAD ZAKI YASYKUR PANDIA
-4. 255150207111033	RINDU ALISA
-5. 255150207111034	PHAKSI GIRING PAMUNGKAS
-
