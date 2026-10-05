@@ -168,7 +168,8 @@ Aplikasi telah dilengkapi skrip otomatis untuk kompilasi dan eksekusi:
 ---
 
 ## Contributors and Team
-255150200111010	Alif Albani Siagian
-255150200111018	Bagas Aji Rasendria
-255150201111010	Ahmad Zaki Yasykur Pandia
-255150207111033	Rindu Alisa
+* 255150200111010	Alif Albani Siagian
+* 255150200111018	Bagas Aji Rasendria
+* 255150201111010	Ahmad Zaki Yasykur Pandia
+* 255150207111033	Rindu Alisa
+* 255150207111034	Phaksi Giring Pamungkas
