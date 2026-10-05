@@ -1,4 +1,4 @@
-# 🐔 Farm Manager
+# Farm Manager (Penugasan Mata Kuliah Basis Data)
 
 > **Aplikasi Desktop CRUD Java Swing untuk Pengelolaan Peternakan Ayam dan Panen Telur Terintegrasi Database SQL Server.**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Tentang Proyek
+## Tentang Proyek
 
 **Farm Manager** adalah aplikasi desktop berbasis **Java Swing** yang dirancang untuk mempermudah operasional dan pembukuan data pada peternakan ayam petelur. Aplikasi ini mengintegrasikan seluruh alur bisnis peternakan—mulai dari manajemen lokasi farm, kandang, karyawan, batch ayam masuk, hingga pencatatan panen telur harian secara real-time ke database **Microsoft SQL Server**.
 
@@ -17,27 +17,27 @@ Dibangun dengan arsitektur **DAO (Data Access Object)** dan Model terstruktur un
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-### 1. 🏡 Manajemen Data Farm
+### 1. Manajemen Data Farm
 * Tambah, edit, hapus, dan cari data lokasi farm.
 * Menyimpan informasi detail seperti nama farm, wilayah, dan alamat lengkap.
 
-### 2. 🛖 Manajemen Kandang
+### 2. Manajemen Kandang
 * Pengelolaan data kandang yang terhubung langsung (*relational foreign key*) ke masing-masing farm.
 * Mendukung pemilihan tipe kandang (misalnya: *Baterai* dan *Lantai*).
 * Fitur pencarian dan filter cepat kandang.
 
-### 3. 👥 Manajemen Karyawan
+### 3. Manajemen Karyawan
 * Pencatatan profil karyawan: nama, kontak telepon, alamat, tanggal mulai bekerja, peran/jabatan, dan penugasan farm.
 * **Fitur Nonaktifkan Karyawan**: Menonaktifkan status karyawan tanpa menghapus riwayat data transaksi yang sudah pernah dicatat.
 * **Validasi Relasi**: Mencegah penghapusan karyawan yang masih terkait dengan data panen aktif.
 
-### 4. 🐣 Manajemen Batch Ayam
+### 4. Manajemen Batch Ayam
 * Catat siklus masuk ayam per kandang.
 * Melacak tanggal masuk, jumlah bibit awal, jumlah ayam hidup saat ini, dan status produktivitas batch.
 
-### 5. 🥚 Pencatatan & Monitoring Panen Telur
+### 5. Pencatatan & Monitoring Panen Telur
 * Pencatatan panen telur harian yang komprehensif.
 * Dropdown dinamis untuk pemilihan:
   * Batch ayam / kandang
@@ -47,7 +47,7 @@ Dibangun dengan arsitektur **DAO (Data Access Object)** dan Model terstruktur un
 
 ---
 
-## 📂 Struktur Proyek
+## Struktur Proyek
 
 Aplikasi ini menerapkan pola pemisahan tanggung jawab (*Separation of Concerns*):
 
@@ -67,7 +67,7 @@ FarmManager/
 
 ---
 
-## ⚙️ Persyaratan Sistem
+## Persyaratan Sistem
 
 * **Java Development Kit (JDK)**: JDK 8 atau versi lebih tinggi (JDK 17 / 21 LTS direkomendasikan).
 * **Database**: Microsoft SQL Server (2014, 2017, 2019, 2022, atau SQL Server Express).
@@ -75,12 +75,12 @@ FarmManager/
 
 ---
 
-## 🚀 Panduan Instalasi & Pengaturan
+## Panduan Instalasi & Pengaturan
 
 ### 1. Persiapan JDBC Driver
 
 1. Unduh **Microsoft JDBC Driver for SQL Server** melalui link resmi:
-   👉 [Download Microsoft JDBC Driver for SQL Server](https://learn.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server)
+   [Download Microsoft JDBC Driver for SQL Server](https://learn.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server)
 2. Ekstrak file arsip yang telah diunduh.
 3. Ambil file `.jar` yang sesuai dengan versi Java Anda (misal `mssql-jdbc-xx.x.x.jre11.jar` atau sejenisnya).
 4. Ubah nama file (*rename*) menjadi:
@@ -120,11 +120,11 @@ FarmManager/
 
 ---
 
-## 💻 Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
 Aplikasi telah dilengkapi skrip otomatis untuk kompilasi dan eksekusi:
 
-### 🪟 Windows
+### Windows
 1. Pastikan `lib/mssql-jdbc.jar` sudah berada di tempatnya.
 2. Klik ganda pada file:
    ```text
@@ -132,7 +132,7 @@ Aplikasi telah dilengkapi skrip otomatis untuk kompilasi dan eksekusi:
    ```
    *(Atau jalankan `.\compile.bat` melalui Command Prompt / PowerShell).*
 
-### 🐧 Linux / macOS
+### Linux / macOS
 1. Buka terminal di direktori proyek `FarmManager`.
 2. Berikan izin eksekusi jika diperlukan:
    ```bash
@@ -145,7 +145,7 @@ Aplikasi telah dilengkapi skrip otomatis untuk kompilasi dan eksekusi:
 
 ---
 
-## 📝 Catatan Penggunaan
+## Catatan Penggunaan
 
 * **Format Tanggal**: Masukkan tanggal dengan standar format ISO:
   ```text
@@ -156,7 +156,7 @@ Aplikasi telah dilengkapi skrip otomatis untuk kompilasi dan eksekusi:
 
 ---
 
-## 🛠 Troubleshooting
+## Troubleshooting & How to Fix
 
 | Kendala | Penyebab Umum | Solusi |
 | :--- | :--- | :--- |
@@ -167,7 +167,8 @@ Aplikasi telah dilengkapi skrip otomatis untuk kompilasi dan eksekusi:
 
 ---
 
-## 📄 Lisensi & Kontributor
-
-Dikembangkan sebagai implementasi aplikasi desktop CRUD berbasis Java & Database SQL Server.
-Dibuat oleh [@ajirasend](https://github.com/ajirasend).
+## Contributors and Team
+255150200111010	Alif Albani Siagian
+255150200111018	Bagas Aji Rasendria
+255150201111010	Ahmad Zaki Yasykur Pandia
+255150207111033	Rindu Alisa
